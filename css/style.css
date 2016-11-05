@@ -1,0 +1,31 @@
+body {
+	background-color: rgb(60,106,145);
+
+}
+
+nav {
+	color: rgb(87, 132, 168);
+
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+
+}
+
+.nav-nonButton {
+	color: rgb(189, 190, 191);
+}
+
+.textBox {
+	background-image: url("/images/frame.png");
+	background-color: #cccccc;
+}
+
+.login {
+	background-color: rgb(87, 132, 168);
+}
