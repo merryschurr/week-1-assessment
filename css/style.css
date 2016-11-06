@@ -9,18 +9,39 @@ footer {
 	position: fixed;
     bottom: 0;
     width: 100%;
+    margin-top: 50px;
+
 }
 
-a {
-	text-decoration: none;
-}
 
 li {
 	list-style-type: none;
-	/*color: rgb(87, 132, 168);*/
+	color: rgb(87, 132, 168);
 	display: inline;
 	margin: 0 30px;
 
+}
+
+li a {
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    color: rgb(87, 132, 168);
+}
+
+.branding {
+	float: right;
+	clear: right;
+	padding: 50px 100px;
+}
+
+.login {
+	background-color: rgb(87, 132, 168);
+}
+
+.phones {
+	float: left;
+	clear: left;
 }
 
 .nav-nonButton {
@@ -30,8 +51,11 @@ li {
 .textBox {
 	background-image: url("/images/frame.png");
 	background-color: #cccccc;
+	display: block;
+	margin: 10px;
+	padding: 10px;
+	float: right;
+	clear: right;
+	
 }
 
-.login {
-	background-color: rgb(87, 132, 168);
-}
