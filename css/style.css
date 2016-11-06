@@ -9,8 +9,6 @@ footer {
 	position: fixed;
     bottom: 0;
     width: 100%;
-    margin-top: 50px;
-
 }
 
 
@@ -32,16 +30,20 @@ li a {
 .branding {
 	float: right;
 	clear: right;
-	padding: 50px 100px;
+
+	margin: 100px 180px -30px 0;
+
 }
 
 .login {
 	background-color: rgb(87, 132, 168);
+	margin: 0 0 80px 50px;
 }
 
 .phones {
 	float: left;
 	clear: left;
+	margin: 80px 0 0 150px;
 }
 
 .nav-nonButton {
@@ -52,10 +54,10 @@ li a {
 	background-image: url("/images/frame.png");
 	background-color: #cccccc;
 	display: block;
-	margin: 10px;
+	margin: 0 180px 50px 0;
 	padding: 10px;
 	float: right;
 	clear: right;
-	
+
 }
 
