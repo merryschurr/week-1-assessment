@@ -1,11 +1,14 @@
 body {
 	background-color: rgb(60,106,145);
-
 }
 
 nav {
-	color: rgb(87, 132, 168);
+}
 
+footer {
+	position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 a {
@@ -14,6 +17,9 @@ a {
 
 li {
 	list-style-type: none;
+	/*color: rgb(87, 132, 168);*/
+	display: inline;
+	margin: 0 30px;
 
 }
 
