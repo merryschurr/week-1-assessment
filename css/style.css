@@ -58,7 +58,7 @@ li a {
 .login {
 	background-color: rgb(87, 132, 168);
 	border: none;
-	box-shadow: 2px 2px rgb(45, 93, 132);
+	box-shadow: 2.5px 2px rgb(45, 93, 132);
 	color: white;
 	cursor: pointer;
 	display: inline-block;
@@ -83,7 +83,7 @@ li a {
 */
 
 .textBox {
-	background: url("images/frame.png");
+	background: url("./images/frame.png");
 	background-color: #cccccc;
     background-repeat: no-repeat;
     clear: right;
