@@ -1,10 +1,6 @@
 body {
 	background-color: rgb(60,106,145);
 	margin-bottom: 100px;
-
-}
-
-nav {
 }
 
 h2 {
@@ -22,17 +18,13 @@ footer {
     font-family: 'Nunito', sans-serif;
     text-transform: uppercase;
     font-size: smaller;
-        font-weight: bolder;
-    
-
+    font-weight: bolder;
 }
 
 li {
 	display: inline;
 	margin: 0 0 10px 50px;
 	font-weight: 20px;
-	
-
 }
 
 li a {
@@ -54,8 +46,19 @@ li a {
 }
 
 .login {
+	display: inline-block;
+	margin: 0 0 80px 30px;
+	padding: 10px 20px;
+	font-size: 14px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: white;
 	background-color: rgb(87, 132, 168);
-	margin: 0 0 80px 50px;
+	border: none;
+	border-radius: 9px;
+	box-shadow: 0 4px rgb(97, 142, 178);
 }
 
 .phones {
@@ -78,7 +81,5 @@ li a {
 	float: right;
 	clear: right;
 	font-family: 'Source Sans Pro', sans-serif;
-
-
 }
 
